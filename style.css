@@ -22,6 +22,7 @@ body{
     padding: 12px;
     border:none;
     border-radius: 6px;
+    cursor:pointer;
 }
 
 .container{
@@ -51,6 +52,19 @@ body{
 .hero_image{
     width: 100%;
 }
+.hero_text{
+    font-size:30px;
+    text-color:#1d3557;
+    margin:20px 0;
+}
+.food_menu_card{
+    width:100%;
+}
+.food_image{
+    width:100%;
+}
+
+
 @media(min-width:768px){
     .navbar{
     justify-content: space-between;
@@ -60,7 +74,7 @@ body{
         width:150px;
     }
     .button_primary{
-        padding:20px;
+        padding:12px 20px;
         font-size:20px;
     }
     .hero_container{
@@ -70,11 +84,12 @@ body{
         justify-content: space-between;
         gap:10px;
     }
+    
         
 }
 @media(min-width: 1020px){
     .container{
-        max-width: 1010px;
+        max-width: 900px;
     }
 
     .hero_image_container{
@@ -83,6 +98,6 @@ body{
     }
 }
 @media(min-width: 1444px){
-    
+    max-width: 1250px;
 }
 
